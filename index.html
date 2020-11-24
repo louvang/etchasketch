@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Etch A Sketch</h1>
+      <p class="subheading">Seamless Pixel Doodle</p>
+
+      <div class="settings">
+        <div id="dim-container">
+          <input class="dim" id="dim-x" name="dimensions" value="16" />
+          &#10005;
+          <input class="dim" id="dim-y" name="dimensions" value="16" />
+          <button id="set-size">Set Dimensions</button>
+        </div>
+        <div id="clear-container">
+          <button id="clear-btn">Clear Canvas</button>
+        </div>
+      </div>
+
+      <div id="canvas"></div>
+
+      <div class="color-container">
+        <div class="circle" id="eraser"></div>
+        <div class="circle selected" id="black"></div>
+        <div class="circle" id="grayscale"></div>
+        <div class="circle" id="custom">
+          <input type="color" value="#ffffff" id="colorpicker" />
+        </div>
+      </div>
+
+      <div class="color-container">Pick a color</div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
