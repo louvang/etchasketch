@@ -1,4 +1,4 @@
-# Etch A Sketch
+# [Etch A Sketch](https://voidteddy.github.io/etchasketch/)
 
 Etch a Sketch is a pixellated drawing webapp that allows the user to set the dimensions of the canvas as well as change the color of their drawing ink.
 
