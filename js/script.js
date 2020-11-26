@@ -107,8 +107,8 @@ colorpicker.addEventListener("click", colorSelection);
 const createCanvas = (canvasSize) => {
   canvas.setAttribute(
     "style",
-    `grid-template-columns: repeat(${canvasSize}, ${500 / canvasSize}px);
-     grid-template-rows: repeat(${canvasSize}, ${500 / canvasSize}px);`
+    `grid-template-columns: repeat(${canvasSize}, ${400 / canvasSize}px);
+     grid-template-rows: repeat(${canvasSize}, ${400 / canvasSize}px);`
   );
   let canvasArea = canvasSize * canvasSize;
 
