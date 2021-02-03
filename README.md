@@ -2,7 +2,7 @@
 
 Etch a Sketch is a pixellated drawing webapp that allows the user to set the dimensions of the canvas as well as change the color of their drawing ink.
 
-<p align="center"><a href="https://louvang.github.io/etchasketch/" target="_blank"><img src="https://louvang.github.io/etchasketch/img/preview.png" alt="Rock Paper Scissors Preview" width="750px" /></a></p>
+<p align="center"><a href="https://louvang.github.io/etchasketch/" target="_blank"><img src="https://louvang.github.io/etchasketch/img/preview.png" alt="Etch a Sketch Preview" width="750px" /></a></p>
 
 ## How To
 
